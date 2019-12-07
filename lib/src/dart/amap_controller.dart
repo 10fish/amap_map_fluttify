@@ -1564,7 +1564,7 @@ class AmapController with WidgetsBindingObserver, _Private {
       case AppLifecycleState.paused:
         _androidController?.onPause();
         break;
-      case AppLifecycleState.suspending:
+      case AppLifecycleState.detached:
         break;
     }
   }
